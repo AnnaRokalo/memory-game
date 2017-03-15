@@ -1,0 +1,44 @@
+.header {
+  background: #0099cc;
+  padding: 20px;
+  position: relative;
+}
+
+.logo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo__img {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background: #647993 url(../images/icons/logo.svg) no-repeat 50% 50%;
+  background-size: 45px 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.logo__caption {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo__title {
+  color: #fff;
+  font-family: 'Lemonada', cursive;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.logo__text {
+  color: rgba(0,0,0,0.5);
+  font-family: 'Lemonada', cursive;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+}

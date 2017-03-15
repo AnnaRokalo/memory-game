@@ -1,0 +1,31 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title CSS animation
+        link(rel='stylesheet', href='css/styles.css')
+        link(href="https://fonts.googleapis.com/css?family=Lemonada:300,400,600,700", rel="stylesheet")
+    body
+        .header
+            .logo
+                .logo__img
+                .logo__caption
+                    .logo__title Memorise
+                    .logo__text train your brains
+
+        .content.page
+            .content-bar
+                .timer.btn 30
+                .btns
+                    .btn.play
+            - var cardCount = 16;
+            .game
+                - for (var i = 0; i < cardCount; i++) {
+                    .flip-container
+                        .flipper
+                            .front
+                            .back
+                -}
+
+        script(src='https://code.jquery.com/jquery-3.1.1.min.js', integrity='sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=', crossorigin='anonymous')
+        script(src='js/app.js')
